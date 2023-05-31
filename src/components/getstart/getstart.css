@@ -1,0 +1,125 @@
+.getstart{
+    background: #232038;
+    display: flex;
+    justify-content: space-between;
+    margin: 6vw 75px;
+    border-radius: 30px;
+    padding-top: 3.5vw;
+    padding-bottom: 3.2vw;
+    align-items: center;
+}
+.getstart-left p{
+    font-weight: 400;
+    font-size: 36px;
+    color: #ffffff;
+    line-height: 64px;
+}
+.start-btn{
+    font-weight: 400;
+    font-size: 20px;
+    color: #FFFFFF;
+    background: #F54748;
+    border-radius: 5.391vw;
+    padding: 0.95vw 2.8vw;
+    margin-top: 3vw;
+    cursor: pointer;
+}
+.start-img{
+    width: 70%;
+    float: right;
+}
+.getstart-left{
+    padding-left: 6vw !important;
+}
+.getstart-right{
+    padding-right: 6vw !important;
+    margin-top: auto !important;
+    margin-bottom: auto !important;
+
+}
+@media screen and (max-width:600px) {
+    .getstart{
+    flex-direction: column !important;
+    text-align: center !important;
+    width: 90% !important;
+    padding: 43px 33px 43px !important;
+    border-radius: 16px !important;
+    margin-top: 11vw !important;
+    margin-bottom: 11vw !important;
+    }
+    .getstart p{
+    margin-bottom: 0px !important;
+    font-size: 20px !important;
+    line-height: 26px !important;
+    }    
+    .start-btn{
+        font-size: 14px !important;
+        padding: 14px 48px !important;
+        border-radius: 69px !important;
+        margin: 30px auto !important;
+    }
+    .start-img{
+        width: 75% !important;      
+        float: none !important;
+    }
+
+    .getstart-right {
+        padding-right: 0px !important;
+        padding-left: 0px !important;
+    }
+}
+
+@media screen and (max-width:900px) {
+    /* .getstart{
+        flex-direction: column;
+        text-align: center;
+        margin: 53px 50px;
+        padding: 43px 60px 43px;
+        border-radius: 56px;
+    }
+    .getstart p{
+        font-size: 25px;
+        line-height: 40px;
+    }    
+    .start-btn{
+        font-size: 14px;
+        padding: 14px 40px;
+        border-radius: 69px;
+        margin: 30px auto;
+    }
+    .start-img{
+        width: 45%;
+    } */
+
+    .getstart-right{
+        padding-right: 0px !important;
+    }
+    .getstart-left{
+        padding-left: 0px !important;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+    .getstart{
+        flex-direction: column ;
+        text-align: center ;
+        width: 100%;
+        border-radius: 56px;
+        padding: 5vw;
+     
+        }
+        .getstart p{
+        margin-bottom: 0px ;
+        font-size: 25px;
+        line-height: 26px;
+        }    
+        .start-btn{
+            font-size: 16px ;
+            padding: 14px 48px ;
+            border-radius: 69px ;
+            margin: 30px auto;
+        }
+        .start-img{
+            width: 75% ;      
+            float: none ;
+        }
+}
